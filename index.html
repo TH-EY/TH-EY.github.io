@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="THEY.dev — Custom software agency bridging AI prototypes and production reality. AI-augmented development at 3x velocity.">
+  <meta name="theme-color" content="#242424">
+  <title>THEY.dev — AI-Augmented Software Development</title>
+  <link href="https://api.fontshare.com/v2/css?f[]=clash-display@600,700&f[]=satoshi@400,500,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Skip to content -->
+  <a href="#hero" class="skip-link">Skip to main content</a>
+
+  <!-- ============================================
+       SECTION 1: NAVIGATION (sticky)
+       ============================================ -->
+  <header class="site-header" role="banner">
+    <div class="header-inner">
+      <a href="/" class="logo" aria-label="THEY.dev home">
+        THEY<span class="logo-accent">.dev</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#services">Services</a>
+        <a href="#process">How We Work</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+
+      <a href="#contact" class="btn btn-primary nav-cta">Book a Call</a>
+
+      <button class="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <div class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
+      <button class="mobile-nav-close" aria-label="Close menu">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <line x1="18" y1="6" x2="6" y2="18"/>
+          <line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>
+      </button>
+      <nav class="mobile-nav-links" aria-label="Mobile navigation links">
+        <a href="#services">Services</a>
+        <a href="#process">How We Work</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact" class="btn btn-primary">Book a Call</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ============================================
+         SECTION 2: HERO (dark bg)
+         ============================================ -->
+    <section id="hero" class="section section-dark hero" aria-label="Hero">
+      <div class="container">
+        <div class="hero-glow" aria-hidden="true"></div>
+
+        <h1>Software Development at <span class="highlight">AI Speed.</span><br>Human Quality.</h1>
+        <p class="hero-subtitle">We turn AI prototypes into production-ready web and mobile applications. From MVP to scale.</p>
+        <p class="hero-clarifier">Web apps &bull; Mobile apps &bull; AI-powered platforms &bull; For startups &amp; enterprises</p>
+
+        <div class="hero-ctas">
+          <a href="#contact" class="btn btn-primary">Book a Discovery Call</a>
+          <a href="#contact" class="btn btn-ghost">Get a Free Estimate</a>
+        </div>
+
+        <div class="stats-bar">
+          <div class="stat-item">
+            <span class="stat-number" data-target="30">0</span><span class="stat-suffix">+</span>
+            <span class="stat-label">Specialists</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-target="60">0</span><span class="stat-suffix">+</span>
+            <span class="stat-label">Projects</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-target="3">0</span><span class="stat-suffix">+</span>
+            <span class="stat-label">Yr Avg Client Relationship</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-static">Since 2017</span>
+            <span class="stat-label">Established</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         SECTION 2B: WHO THIS IS FOR (light bg)
+         ============================================ -->
+    <section id="who-this-is-for" class="section section-light" aria-label="Who This Is For">
+      <div class="container">
+        <h2 class="animate-on-scroll">Built For You If&hellip;</h2>
+        <div class="audience-grid">
+          <div class="audience-card animate-on-scroll">
+            <div class="audience-icon" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#03CCB4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 00-2.91-.09z"/>
+                <path d="M12 15l-3-3a22 22 0 012-3.95A12.88 12.88 0 0122 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 01-4 2z"/>
+              </svg>
+            </div>
+            <h3>Startups</h3>
+            <p>You have an AI prototype that needs to become a real, scalable product.</p>
+          </div>
+          <div class="audience-card animate-on-scroll">
+            <div class="audience-icon" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#03CCB4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                <line x1="8" y1="21" x2="16" y2="21"/>
+                <line x1="12" y1="17" x2="12" y2="21"/>
+              </svg>
+            </div>
+            <h3>Enterprise Teams</h3>
+            <p>You want to add AI capabilities to existing systems without rebuilding from scratch.</p>
+          </div>
+          <div class="audience-card animate-on-scroll">
+            <div class="audience-icon" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#03CCB4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                <polyline points="9 12 11 14 15 10"/>
+              </svg>
+            </div>
+            <h3>Founders</h3>
+            <p>You built with Bolt, Lovable, or Base44 and need production hardening &mdash; security, scale, compliance.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         SECTION 3: THE PROBLEM (light bg)
+         ============================================ -->
+    <section id="problem" class="section section-light" aria-label="The Problem">
+      <div class="container">
+        <h2 class="animate-on-scroll">When Your AI Prototype Meets Reality</h2>
+
+        <div class="comparison-grid">
+          <div class="comparison-card risk-card animate-on-scroll">
+            <div class="comparison-card-header">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#e74c3c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/>
+                <line x1="12" y1="9" x2="12" y2="13"/>
+                <line x1="12" y1="17" x2="12.01" y2="17"/>
+              </svg>
+              <h3>The Risk</h3>
+            </div>
+            <ul>
+              <li>45% of AI-generated code has security vulnerabilities</li>
+              <li>Authentication bypasses in major AI coding platforms</li>
+              <li>2,000+ critical flaws found across 5,600 apps</li>
+              <li>No security review or CI/CD pipelines</li>
+              <li>Zero monitoring or incident response</li>
+            </ul>
+          </div>
+
+          <div class="comparison-card they-card animate-on-scroll">
+            <div class="comparison-card-header">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#03CCB4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                <polyline points="9 12 11 14 15 10"/>
+              </svg>
+              <h3>The THEY Way</h3>
+            </div>
+            <ul>
+              <li>Security audit &amp; hardening on every project</li>
+              <li>Production-grade architecture from day one</li>
+              <li>CI/CD pipelines with automated testing</li>
+              <li>24/7 monitoring &amp; incident response</li>
+              <li>Compliance-ready infrastructure</li>
+            </ul>
+          </div>
+        </div>
+
+        <blockquote class="callout animate-on-scroll">
+          <p>The gap between a working demo and a reliable production system is where projects are dying.</p>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- ============================================
+         SECTION 4: WHO WE ARE (dark bg)
+         ============================================ -->
+    <section id="about" class="section section-dark" aria-label="About Us">
+      <div class="container">
+        <h2 class="animate-on-scroll">Who the hell are THEY?</h2>
+
+        <div class="acronym-grid">
+          <div class="acronym-item animate-on-scroll">
+            <span class="acronym-letter">T</span>
+            <h3>Transparency</h3>
+            <p>Full access to code, AI tools, and processes from day one.</p>
+          </div>
+          <div class="acronym-item animate-on-scroll">
+            <span class="acronym-letter">H</span>
+            <h3>Honesty</h3>
+            <p>If AI can do it faster and cheaper, we'll tell you. No hidden agendas, no unnecessary complexity.</p>
+          </div>
+          <div class="acronym-item animate-on-scroll">
+            <span class="acronym-letter">E</span>
+            <h3>Efficiency</h3>
+            <p>AI-augmented teams delivering at 3x velocity. Smaller teams, bigger results.</p>
+          </div>
+          <div class="acronym-item animate-on-scroll">
+            <span class="acronym-letter">Y</span>
+            <h3>YOU</h3>
+            <p>Your success metrics are our KPIs. We're your co-pilots, not your vendors.</p>
+          </div>
+        </div>
+
+        <p class="about-description animate-on-scroll">Founded in 2017 with offices in London and Krak&oacute;w, we're the anti-corporate software consultancy. We embed with your team, challenge assumptions, and build what actually matters &mdash; now supercharged with AI.</p>
+      </div>
+    </section>
+
+    <!-- ============================================
+         SECTION 5: SERVICES (light bg)
+         ============================================ -->
+    <section id="services" class="section section-light" aria-label="Services">
+      <div class="container">
+        <h2 class="animate-on-scroll">AI-Era Services</h2>
+        <p class="section-subtitle animate-on-scroll">We evolved our services for a world where AI writes the first draft.</p>
+
+        <div class="services-grid">
+
+          <!-- Service 1: AI Strategy & Discovery -->
+          <div class="service-card animate-on-scroll">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#03CCB4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9 18h6"/>
+                <path d="M10 22h4"/>
+                <path d="M12 2a7 7 0 017 7c0 2.38-1.19 4.47-3 5.74V17a1 1 0 01-1 1h-6a1 1 0 01-1-1v-2.26C6.19 13.47 5 11.38 5 9a7 7 0 017-7z"/>
+              </svg>
+            </div>
+            <span class="service-badge">ASD</span>
+            <h3>AI Strategy &amp; Discovery</h3>
+            <p>We map your AI opportunities before writing a line of code. Workflow design, tool selection, and ROI projections.</p>
+            <a href="#contact" class="service-link">Discuss This &rarr;</a>
+          </div>
+
+          <!-- Service 2: Rapid AI Prototyping -->
+          <div class="service-card animate-on-scroll">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#03CCB4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 00-2.91-.09z"/>
+                <path d="M12 15l-3-3a22 22 0 012-3.95A12.88 12.88 0 0122 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 01-4 2z"/>
+                <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/>
+                <path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/>
+              </svg>
+            </div>
+            <span class="service-badge">RAP</span>
+            <h3>Rapid AI Prototyping</h3>
+            <p>From idea to working prototype in days, not months. AI-augmented development at 3x velocity.</p>
+            <a href="#contact" class="service-link">Discuss This &rarr;</a>
+          </div>
+
+          <!-- Service 3: Vibe-to-Production Hardening -->
+          <div class="service-card animate-on-scroll">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#03CCB4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                <polyline points="9 12 11 14 15 10"/>
+              </svg>
+            </div>
+            <span class="service-badge">V2P</span>
+            <h3>Vibe-to-Production Hardening</h3>
+            <p>Built your MVP with Base44, Bolt, or Lovable? We harden it for production &mdash; security, scale, and compliance.</p>
+            <a href="#contact" class="service-link">Discuss This &rarr;</a>
+          </div>
+
+          <!-- Service 4: AI-Native Development -->
+          <div class="service-card animate-on-scroll">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#03CCB4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2a8 8 0 018 8c0 3.36-1.24 5.53-2.76 7.32-.5.59-1.05 1.13-1.57 1.68H8.33c-.52-.55-1.07-1.09-1.57-1.68C5.24 15.53 4 13.36 4 10a8 8 0 018-8z"/>
+                <path d="M9 22h6"/>
+                <path d="M8 10h.01"/>
+                <path d="M16 10h.01"/>
+                <path d="M9.5 15a3.5 3.5 0 005 0"/>
+              </svg>
+            </div>
+            <span class="service-badge">AND</span>
+            <h3>AI-Native Development</h3>
+            <p>Full-stack applications with AI baked in. AI assistants, chatbots, smart search, and workflow automation.</p>
+            <a href="#contact" class="service-link">Discuss This &rarr;</a>
+          </div>
+
+          <!-- Service 5: AI Integration & Modernization -->
+          <div class="service-card animate-on-scroll">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#03CCB4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="3"/>
+                <path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83 0 2 2 0 010-2.83l.06-.06A1.65 1.65 0 004.68 15a1.65 1.65 0 00-1.51-1H3a2 2 0 010-4h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 012.83-2.83l.06.06A1.65 1.65 0 009 4.68a1.65 1.65 0 001-1.51V3a2 2 0 014 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 2.83l-.06.06A1.65 1.65 0 0019.4 9a1.65 1.65 0 001.51 1H21a2 2 0 010 4h-.09a1.65 1.65 0 00-1.51 1z"/>
+              </svg>
+            </div>
+            <span class="service-badge">AIM</span>
+            <h3>AI Integration &amp; Modernization</h3>
+            <p>Add intelligence to your existing software. We retrofit AI capabilities into legacy systems without starting over.</p>
+            <a href="#contact" class="service-link">Discuss This &rarr;</a>
+          </div>
+
+          <!-- Service 6: AI-Powered Operations -->
+          <div class="service-card animate-on-scroll">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#03CCB4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                <line x1="8" y1="21" x2="16" y2="21"/>
+                <line x1="12" y1="17" x2="12" y2="21"/>
+                <polyline points="6 8 10 12 14 8 18 12"/>
+              </svg>
+            </div>
+            <span class="service-badge">APO</span>
+            <h3>AI-Powered Operations</h3>
+            <p>24/7 AI monitoring, predictive maintenance, automated incident response. Your software runs itself.</p>
+            <a href="#contact" class="service-link">Discuss This &rarr;</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         SECTION 6: HOW WE WORK (dark bg)
+         ============================================ -->
+    <section id="process" class="section section-dark" aria-label="How We Work">
+      <div class="container">
+        <h2 class="animate-on-scroll">How We Work</h2>
+
+        <div class="process-timeline">
+
+          <div class="process-step animate-on-scroll">
+            <div class="step-icon" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#03CCB4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"/>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+              </svg>
+            </div>
+            <h3>Discover</h3>
+            <p>Deep dive into your goals, users, and constraints</p>
+          </div>
+
+          <div class="process-step animate-on-scroll">
+            <div class="step-icon" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#03CCB4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 20h9"/>
+                <path d="M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/>
+              </svg>
+            </div>
+            <h3>Design</h3>
+            <p>Architecture, UX, and technical blueprint</p>
+          </div>
+
+          <div class="process-step animate-on-scroll">
+            <div class="step-icon" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#03CCB4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="16 18 22 12 16 6"/>
+                <polyline points="8 6 2 12 8 18"/>
+                <line x1="14" y1="4" x2="10" y2="20"/>
+              </svg>
+            </div>
+            <h3>Build</h3>
+            <p>AI-augmented development sprints</p>
+          </div>
+
+          <div class="process-step animate-on-scroll">
+            <div class="step-icon" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#03CCB4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              </svg>
+            </div>
+            <h3>Harden</h3>
+            <p>Security audits, load testing, compliance</p>
+          </div>
+
+          <div class="process-step animate-on-scroll">
+            <div class="step-icon" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#03CCB4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+              </svg>
+            </div>
+            <h3>Operate</h3>
+            <p>24/7 monitoring, updates, and optimization</p>
+          </div>
+
+        </div>
+
+        <p class="velocity-proof animate-on-scroll">Average project kickoff: <strong>2 weeks</strong>. Average MVP: <strong>6 weeks</strong>.</p>
+      </div>
+    </section>
+
+    <!-- ============================================
+         SECTION 7: PORTFOLIO (light bg)
+         ============================================ -->
+    <section id="portfolio" class="section section-light" aria-label="Portfolio">
+      <div class="container">
+        <h2 class="animate-on-scroll">What We've Built</h2>
+
+        <div class="portfolio-grid">
+
+          <!-- Project 1: Continuo -->
+          <div class="portfolio-card animate-on-scroll">
+            <div class="portfolio-card-content">
+              <h3>Continuo</h3>
+              <p>AI-powered music education platform</p>
+              <p class="portfolio-outcome">50K+ students onboarded in first 6 months</p>
+              <div class="portfolio-tags">
+                <span class="tag">EdTech</span>
+                <span class="tag">AI</span>
+              </div>
+            </div>
+            <div class="portfolio-overlay">
+              <span class="tech-chip">React</span>
+              <span class="tech-chip">Node.js</span>
+              <span class="tech-chip">TensorFlow</span>
+            </div>
+          </div>
+
+          <!-- Project 2: Social Town -->
+          <div class="portfolio-card animate-on-scroll">
+            <div class="portfolio-card-content">
+              <h3>Social Town</h3>
+              <p>Community-driven event discovery</p>
+              <p class="portfolio-outcome">20K+ monthly active users across 3 cities</p>
+              <div class="portfolio-tags">
+                <span class="tag">Social</span>
+                <span class="tag">Events</span>
+              </div>
+            </div>
+            <div class="portfolio-overlay">
+              <span class="tech-chip">React Native</span>
+              <span class="tech-chip">Firebase</span>
+              <span class="tech-chip">Maps API</span>
+            </div>
+          </div>
+
+          <!-- Project 3: Common Surface -->
+          <div class="portfolio-card animate-on-scroll">
+            <div class="portfolio-card-content">
+              <h3>Common Surface</h3>
+              <p>Hybrid workspace management</p>
+              <p class="portfolio-outcome">Deployed across 50+ enterprise offices</p>
+              <div class="portfolio-tags">
+                <span class="tag">Enterprise</span>
+                <span class="tag">SaaS</span>
+              </div>
+            </div>
+            <div class="portfolio-overlay">
+              <span class="tech-chip">Angular</span>
+              <span class="tech-chip">.NET</span>
+              <span class="tech-chip">Azure</span>
+            </div>
+          </div>
+
+          <!-- Project 4: HelloHosty -->
+          <div class="portfolio-card animate-on-scroll">
+            <div class="portfolio-card-content">
+              <h3>HelloHosty</h3>
+              <p>AI assistant for rental property management</p>
+              <p class="portfolio-outcome">3x faster guest response times with AI</p>
+              <div class="portfolio-tags">
+                <span class="tag">PropTech</span>
+                <span class="tag">AI</span>
+              </div>
+            </div>
+            <div class="portfolio-overlay">
+              <span class="tech-chip">Flutter</span>
+              <span class="tech-chip">Python</span>
+              <span class="tech-chip">GPT-4</span>
+            </div>
+          </div>
+
+          <!-- Project 5: Beautilio -->
+          <div class="portfolio-card animate-on-scroll">
+            <div class="portfolio-card-content">
+              <h3>Beautilio</h3>
+              <p>Smart booking for beauty professionals</p>
+              <p class="portfolio-outcome">85% reduction in no-show appointments</p>
+              <div class="portfolio-tags">
+                <span class="tag">Marketplace</span>
+                <span class="tag">Booking</span>
+              </div>
+            </div>
+            <div class="portfolio-overlay">
+              <span class="tech-chip">React</span>
+              <span class="tech-chip">Node.js</span>
+              <span class="tech-chip">Stripe</span>
+            </div>
+          </div>
+
+          <!-- Project 6: M01 -->
+          <div class="portfolio-card animate-on-scroll">
+            <div class="portfolio-card-content">
+              <h3>M01</h3>
+              <p>Next-gen restaurant POS system</p>
+              <p class="portfolio-outcome">Processing 10K+ orders/day across 40 restaurants</p>
+              <div class="portfolio-tags">
+                <span class="tag">Hospitality</span>
+                <span class="tag">POS</span>
+              </div>
+            </div>
+            <div class="portfolio-overlay">
+              <span class="tech-chip">React</span>
+              <span class="tech-chip">Electron</span>
+              <span class="tech-chip">PostgreSQL</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         SECTION 8: TRUST & SOCIAL PROOF (dark bg)
+         ============================================ -->
+    <section id="trust" class="section section-dark" aria-label="Trust and Social Proof">
+      <div class="container">
+        <h2 class="animate-on-scroll">Trusted By Innovators</h2>
+
+        <div class="logo-strip" aria-label="Client logos">
+          <div class="logo-strip-track">
+            <div class="client-logo">Continuo</div>
+            <div class="client-logo">Social Town</div>
+            <div class="client-logo">Common Surface</div>
+            <div class="client-logo">HelloHosty</div>
+            <div class="client-logo">Beautilio</div>
+            <div class="client-logo">M01</div>
+            <!-- Duplicated for infinite scroll -->
+            <div class="client-logo">Continuo</div>
+            <div class="client-logo">Social Town</div>
+            <div class="client-logo">Common Surface</div>
+            <div class="client-logo">HelloHosty</div>
+            <div class="client-logo">Beautilio</div>
+            <div class="client-logo">M01</div>
+          </div>
+        </div>
+
+        <div class="testimonial-carousel" aria-label="Client testimonials">
+
+          <div class="testimonial active" role="group" aria-roledescription="slide" aria-label="Testimonial 1 of 3">
+            <blockquote>
+              <p>&ldquo;THEY transformed our AI prototype into a production system that handles 10,000 daily users without breaking a sweat.&rdquo;</p>
+            </blockquote>
+            <cite>CTO, Series B EdTech Startup (London)</cite>
+          </div>
+
+          <div class="testimonial" role="group" aria-roledescription="slide" aria-label="Testimonial 2 of 3">
+            <blockquote>
+              <p>&ldquo;We tried building with Bolt first. THEY took what we had and made it enterprise-ready in 6 weeks.&rdquo;</p>
+            </blockquote>
+            <cite>Founder, Digital Health Platform (UK)</cite>
+          </div>
+
+          <div class="testimonial" role="group" aria-roledescription="slide" aria-label="Testimonial 3 of 3">
+            <blockquote>
+              <p>&ldquo;Their AI-augmented approach cut our development time by 60%. The team feels like an extension of our own.&rdquo;</p>
+            </blockquote>
+            <cite>VP Engineering, Enterprise SaaS Company (Europe)</cite>
+          </div>
+
+          <div class="carousel-dots" role="tablist" aria-label="Testimonial navigation">
+            <button class="dot active" aria-label="Show testimonial 1" aria-selected="true" role="tab"></button>
+            <button class="dot" aria-label="Show testimonial 2" aria-selected="false" role="tab"></button>
+            <button class="dot" aria-label="Show testimonial 3" aria-selected="false" role="tab"></button>
+          </div>
+        </div>
+
+        <div class="metric-boxes">
+          <div class="metric-box animate-on-scroll">
+            <span class="metric-value">45% &rarr; 0%</span>
+            <span class="metric-subtitle">Vulnerability reduction for client apps</span>
+          </div>
+          <div class="metric-box animate-on-scroll">
+            <span class="metric-value">3x</span>
+            <span class="metric-subtitle">Average development velocity</span>
+          </div>
+          <div class="metric-box animate-on-scroll">
+            <span class="metric-value">60+</span>
+            <span class="metric-subtitle">Successful project deliveries</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         SECTION 9: PRICING (light bg)
+         ============================================ -->
+    <section id="pricing" class="section section-light" aria-label="Pricing">
+      <div class="container">
+        <h2 class="animate-on-scroll">We Don't Sell Hours. We Deliver Outcomes.</h2>
+
+        <div class="pricing-grid">
+
+          <!-- Sprint-Based -->
+          <div class="pricing-card animate-on-scroll">
+            <div class="pricing-icon" aria-hidden="true">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#03CCB4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+              </svg>
+            </div>
+            <h3>Sprint-Based</h3>
+            <p class="pricing-range">Projects from $25K</p>
+            <p>Fixed scope, fixed price, AI-augmented velocity. You know what you're getting and what it costs.</p>
+            <ul class="pricing-features">
+              <li>Defined deliverables</li>
+              <li>2-6 week sprints</li>
+              <li>AI-boosted efficiency</li>
+            </ul>
+          </div>
+
+          <!-- Subscription -->
+          <div class="pricing-card animate-on-scroll">
+            <div class="pricing-icon" aria-hidden="true">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#03CCB4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M23 4v6h-6"/>
+                <path d="M1 20v-6h6"/>
+                <path d="M3.51 9a9 9 0 0114.85-3.36L23 10"/>
+                <path d="M20.49 15a9 9 0 01-14.85 3.36L1 14"/>
+              </svg>
+            </div>
+            <h3>Subscription</h3>
+            <p class="pricing-range">From $15K/mo</p>
+            <p>Monthly retainer, dedicated AI-augmented team access. Scale up or down as needed.</p>
+            <ul class="pricing-features">
+              <li>Dedicated team</li>
+              <li>Flexible capacity</li>
+              <li>Priority support</li>
+            </ul>
+          </div>
+
+          <!-- Outcome-Based -->
+          <div class="pricing-card animate-on-scroll">
+            <div class="pricing-icon" aria-hidden="true">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#03CCB4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 9l6 6 6-6"/>
+                <circle cx="12" cy="12" r="10"/>
+                <line x1="12" y1="8" x2="12" y2="16"/>
+                <line x1="8" y1="12" x2="16" y2="12"/>
+              </svg>
+            </div>
+            <h3>Outcome-Based</h3>
+            <p class="pricing-range">Custom &mdash; aligned to milestones</p>
+            <p>Pay for results: uptime, performance targets, delivery milestones. Our incentives aligned with yours.</p>
+            <ul class="pricing-features">
+              <li>Performance SLAs</li>
+              <li>Milestone payments</li>
+              <li>Shared risk/reward</li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="pricing-cta animate-on-scroll">
+          <p>Let's find the right model for you.</p>
+          <div class="pricing-cta-buttons">
+            <a href="#contact" class="btn btn-primary">Book a Discovery Call</a>
+            <a href="#contact" class="btn btn-ghost">Get a Free Estimate</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         SECTION 10: FAQ (dark bg)
+         ============================================ -->
+    <section id="faq" class="section section-dark" aria-label="Frequently Asked Questions">
+      <div class="container">
+        <h2 class="animate-on-scroll">Frequently Asked Questions</h2>
+
+        <div class="faq-list">
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Can I use Base44/Bolt to build my MVP first?</span>
+              <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="6 9 12 15 18 9"/>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p>Absolutely. We encourage it. AI tools are great for validating ideas quickly. When you're ready to go to production, we'll harden what you've built &mdash; fixing security holes, adding proper architecture, and making it scale.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>How do you use AI in your development process?</span>
+              <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="6 9 12 15 18 9"/>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p>AI is embedded in everything we do &mdash; from code generation and testing to architecture review and documentation. Our developers use AI as a force multiplier, not a replacement. Every line of AI-generated code goes through human review.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>What's the difference between an AI prototype and production-ready?</span>
+              <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="6 9 12 15 18 9"/>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p>A vibe-coded app works in demos. A production-ready app works at 3am when 10,000 users hit it simultaneously. The gap includes security hardening, error handling, monitoring, CI/CD, database optimization, and compliance.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>How fast can you deliver compared to traditional agencies?</span>
+              <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="6 9 12 15 18 9"/>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p>Our AI-augmented teams typically deliver 3x faster than traditional development. An MVP that used to take 4-6 months now ships in 6-8 weeks.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Do you work with our existing tech stack?</span>
+              <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="6 9 12 15 18 9"/>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p>Yes. We're stack-agnostic and integrate with whatever you're already using. Whether it's legacy Java or cutting-edge Rust, we meet you where you are.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>What does AI-Powered Operations include?</span>
+              <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="6 9 12 15 18 9"/>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p>24/7 automated monitoring, predictive maintenance, AI-driven incident response, performance optimization, and regular security scanning. Think of it as a DevOps team that never sleeps.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>How do you price your services?</span>
+              <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="6 9 12 15 18 9"/>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p>Sprint projects typically start from $25K, monthly retainers from $15K/mo, and outcome-based pricing is custom. Most of our clients invest between $25K&ndash;$250K per engagement. We'll recommend the best fit during our discovery call.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>What's a typical project budget?</span>
+              <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="6 9 12 15 18 9"/>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p>Most of our clients invest between $25K and $250K per engagement. Sprint projects start from $25K, monthly retainers from $15K/mo. We'll give you a clear estimate after our discovery call &mdash; no surprises.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>What if the project scope changes mid-way?</span>
+              <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="6 9 12 15 18 9"/>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p>Scope changes are normal &mdash; we plan for them. Our sprint-based model lets you reprioritize between sprints. For subscriptions, you have full flexibility to shift focus monthly. We'll flag trade-offs early so there are no surprises on timeline or budget.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Can we talk to a past client as a reference?</span>
+              <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="6 9 12 15 18 9"/>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p>Absolutely. We can connect you with relevant past clients who've agreed to be references. Just let us know during our discovery call and we'll arrange an introduction.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Where is your team located?</span>
+              <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="6 9 12 15 18 9"/>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p>We have offices in London, UK and Krak&oacute;w, Poland. Our teams work across European time zones, with flexibility for global clients.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         SECTION 11: CTA + FOOTER (darker bg)
+         ============================================ -->
+    <section id="contact" class="section section-darker cta-section" aria-label="Contact">
+      <div class="container">
+        <div class="cta-banner animate-on-scroll">
+          <h2>Ready to turn your AI prototype into a real product?</h2>
+          <p class="cta-capacity">Currently accepting 2 new projects for Q2 2026</p>
+
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="contact-name">Name</label>
+                <input type="text" id="contact-name" name="name" required placeholder="Your name">
+                <span class="form-error" aria-live="polite"></span>
+              </div>
+              <div class="form-group">
+                <label for="contact-email">Email</label>
+                <input type="email" id="contact-email" name="email" required placeholder="you@company.com">
+                <span class="form-error" aria-live="polite"></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="contact-message">Tell us about your project</label>
+              <textarea id="contact-message" name="message" rows="4" required placeholder="What are you building? What stage is it at?"></textarea>
+              <span class="form-error" aria-live="polite"></span>
+            </div>
+            <button type="submit" class="btn btn-primary btn-large">Send Message</button>
+            <div class="form-success" id="form-success" hidden>
+              <p>Thanks! We'll get back to you within 24 hours.</p>
+            </div>
+          </form>
+
+          <p class="cta-alt">Or email us directly at <a href="mailto:hello@they.dev">hello@they.dev</a></p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-col">
+          <a href="/" class="logo footer-logo" aria-label="THEY.dev home">
+            THEY<span class="logo-accent">.dev</span>
+          </a>
+          <p class="footer-tagline">Building production-grade software at AI speed.</p>
+          <div class="footer-badges" aria-label="Awards">
+            <!-- Award badges placeholder -->
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <nav aria-label="Footer navigation">
+            <a href="#services">Services</a>
+            <a href="#process">Process</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#faq">FAQ</a>
+          </nav>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <address>
+            <a href="mailto:hello@they.dev">hello@they.dev</a>
+            <p>71-75 Shelton Street, Covent Garden,<br>London, WC2H 9JQ</p>
+            <p>ul. J&oacute;zefa Dietla 50,<br>31-039 Krak&oacute;w, Poland</p>
+          </address>
+        </div>
+
+        <div class="footer-col">
+          <h4>Connect</h4>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/company/they-dev" aria-label="LinkedIn" rel="noopener noreferrer" target="_blank">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+              </svg>
+            </a>
+            <a href="https://clutch.co/profile/they" aria-label="Clutch" rel="noopener noreferrer" target="_blank">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 18a6 6 0 110-12 6 6 0 010 12zm0-9a3 3 0 100 6 3 3 0 000-6z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="copyright-year">2026</span> THEY.dev. All rights reserved.</p>
+        <div class="footer-bottom-badges">
+          <span class="footer-badge">Clutch Top Developer 2024</span>
+          <span class="footer-badge">DesignRush Best Agencies</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
